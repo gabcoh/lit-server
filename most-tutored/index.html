@@ -1,138 +1,36 @@
 <html>
-
-<head>
-    <script type="text/javascript">
-        // Your Client ID can be retrieved from your project in the Google
-        // Developer Console, https://console.developers.google.com
-        var CLIENT_ID = '716322429169-uka8nvtq0mf943iq46h5bbgjsfdslm80.apps.googleusercontent.com';
-
-        var SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"];
-
-        /**
-         * Check if current user has authorized this application.
-         */
-        function checkAuth() {
-            gapi.auth.authorize({
-                'client_id': CLIENT_ID,
-                'scope': SCOPES.join(' '),
-                'immediate': true
-            }, handleAuthResult);
-            [78 / 371]
-        }
-
-        /**
-         * Handle response from authorization server.
-         *
-         * @param {Object} authResult Authorization result.
-         */
-        function handleAuthResult(authResult) {
-            var authorizeDiv = document.getElementById('authorize-div');
-            if (authResult && !authResult.error) {
-                // Hide auth UI, then load client library.
-                authorizeDiv.style.display = 'none';
-                loadSheetsApi();
-            } else {
-                // Show auth UI, allowing the user to initiate authorization by
-                // clicking authorize button.
-                authorizeDiv.style.display = 'inline';
-            }
-        }
-
-        /**
-         * Initiate auth flow in response to user clicking authorize button.
-         *
-         * @param {Event} event Button click event.
-         */
-        function handleAuthClick(event) {
-            gapi.auth.authorize({
-                    client_id: CLIENT_ID,
-                    scope: SCOPES,
-                    immediate: false
-                },
-                handleAuthResult);
-            return false;
-        }
-
-        /**
-         * Load Sheets API client library.
-         */
-        function loadSheetsApi() {
-            [39 / 371]
-            var discoveryUrl =
-                'https://sheets.googleapis.com/$discovery/rest?version=v4';
-            gapi.client.load(discoveryUrl).then(fetchSheets);
-        }
-
-        function process(tutorsResponse, idsResponse){
-            var id = idsResponse.result;
-            var tutorSessions = tutorsResponse.result;
-            var idMap = {};
-            var visitsMap = {};
-            for (var i = 0; i < id.values.length; i++){
-                idMap[id.values[i][0]] = id.values[i][1]+" "+id.values[i][2];
-            }
-            for(i = 0; i < tutorSessions.values.length; i++){
-                if(tutorSessions.values[i][1] in visitsMap){
-                    visitsMap[tutorSessions.values[i][1]]++;
-                } else {
-                    visitsMap[tutorSessions.values[i][1]] = 0;
-                }
-            }
-            var maxKey = 0;
-            var maxValue = 0;
-            for (var key in visitsMap){
-                if (visitsMap[key] > maxValue){
-                    maxKey = key;
-                    maxValue = visitsMap[key]; 
-                }
-            }
-            console.log(idMap[maxKey]);
-            output(idMap[maxKey]);
-        }
-
-        /**
-         * Print the names and majors of students in a sample spreadsheet:
-         * https://docs.google.com/spreadsheets/d/1L3_WojemoFeh9qTPOtIl2_leXpKAQ308jX7lgED96X0/edit
-        */
-        function fetchSheets() {
-            gapi.client.sheets.spreadsheets.values.get({
-                spreadsheetId: '1L3_WojemoFeh9qTPOtIl2_leXpKAQ308jX7lgED96X0',
-                range: 'Form Responses 1',
-            }).then(function(tutorsResponse){
-                    gapi.client.sheets.spreadsheets.values.get({
-                        spreadsheetId: '1L3_WojemoFeh9qTPOtIl2_leXpKAQ308jX7lgED96X0',
-                        range: 'studentIdNums',
-                    }).then(function(idsResponse){
-                        process(tutorsResponse, idsResponse);
-                }, function(response) {
-                    console.log("error");
-                });
-                    
-            });
-        }
-        /**
-         * Append a pre element to the body containing the given message
-         * as its text node.
-         *
-         * @param {string} message Text to be placed in pre element.
-         */
-        function output(message) {
-            var out = document.getElementById("output");
-            out.insertAdjacentText('afterbegin', message);
-        }
-    </script>
-    <script src="https://apis.google.com/js/client.js?onload=checkAuth">
-    </script>
-</head>
-<body>
-    <div id="authorize-div" style="display:none">
-        <span> Authorize access to Google Sheets API
+    <head>
+        <script src="most-tutored.js"></script>
+        <script src="https://apis.google.com/js/client.js?onload=checkAuth"></script>
+        <link rel="stylesheet" type="text/css" href="most-tutored.css">
+    </head>
+    <body>
+        <div id="authorize-div" style="display:none">
+            <span> Authorize access to Google Sheets API
             </span>
-                <!--Button for the user to click to initiate auth sequence -->
-                <button id="authorize-button" onclick="handleAuthClick(event)">
-                    Authorize
-                </button>
-         </div>
-         <h1 id="output"> has been tutored the most</h1>
-</body>
+            <!--Button for the user to click to initiate auth sequence -->
+            <button id="authorize-button" onclick="handleAuthClick(event)">
+                Authorize
+            </button>
+        </div>
+        <div id="post-auth">
+            <div id="input-div">
+                <h4>Search By</h4>
+                <input type="radio" id="by name" name="search by" checked='checked'>by name</input>
+                <input type="radio" id="by id" name="search by" value='search by id'> by id</input><br>
+                <input type="text" id="search" name ="search" value="Start typing a name" onkeyup="search()"></input>
+                <label for="search" id="search-label"></label>
+            </div>
+            <div id="output-div">
+                <!--<input type="button" name="submit-search" value="Submit" onclick="search()"></input>-->
+                <table id="output">
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Number of times Tutored</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
 </html>
