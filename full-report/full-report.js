@@ -69,10 +69,17 @@ var index = 2;
 var sign = 1;
 function compareByIndex(arr1, arr2){
     if(arr1[index] > arr2[index])
+<<<<<<< HEAD
         return 1*sign;
     else if(arr1[index] == arr2[index])
         return 0;
     return -1*sign;
+=======
+        return 1;
+    else if(arr1[index] == arr2[index])
+        return 0;
+    return -1;
+>>>>>>> e33c23ef02b119c3c2ad8f6d49587b08082dc23e
 }
 
 //var keepProccessed = [];
