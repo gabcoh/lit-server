@@ -73,6 +73,8 @@ function compareByIndex(arr1, arr2){
         return 0;
     return 1;
 }
+
+//var keepProccessed = [];
 function process(tutorsResponse, rentaResponse, idsResponse){
     var id = idsResponse.result;
     var tutorSessions = tutorsResponse.result;
@@ -128,45 +130,52 @@ function process(tutorsResponse, rentaResponse, idsResponse){
             id = idMap[name.replace(/(.*)_(.*)_(.*)<.*>/, "$1_$2 $3")];
         else if ( name.replace(/(.*_(.*)_(.*)<.*>/, "$1 $2_$3"))
                 id = idMap[name.replace(/(.*_(.*)_(.*)<.*>/, "$1 $2_$3")];
-                    else if ( name.replace(/(.*)_(.*)_(.*)<.*>/, "$1_$2 $3").toUpperCase())
-                    id = idMap[name.replace(/(.*)_(.*)_(.*)<.*>/, "$1_$2 $3").toUpperCase()];
-                    else if ( name.replace(/(.*_(.*)_(.*)<.*>/, "$1 $2_$3").toUpperCase())
-                        id = idMap[name.replace(/(.*_(.*)_(.*)<.*>/, "$1 $2_$3").toUpperCase()];
-                            var sing = single[name];
-                            var rent;
-                            var comb = undefined;
-                            if (name in renta) {
-                                rent = renta[name];
-                            }
-                            else{
-                                rent = 0;
-                            }
-                            comb = rent + sing;
-                            table.push([name.replace(/(.*)<.*>/, "$1").replace(/_([a-zA-z])/, ", $1").replace("_", " "),
-                                name.replace(/.*<(.*)>/, "$1") + "", sing, rent, comb]);
-                            } 
-                            var ind = 1;
-                            var sortType = document.querySelector('input[name = "sort"]:checked').value;
-                            switch(sortType) {
-                                case "name":
-                                    this.index = 0;
-                                    break;
-                                case "lit":
-                                    this.index = 2;
-                                    break;
-                                case "rented":
-                                    this.index = 3;
-                                    break;
-                                case "total":
-                                    this.index = 4;
-                                    break;
-                            }
-                            for(let row of table.sort(compareByIndex)){
-                                if(row[1].includes("d219.org"))
-                                    addRow(true, row[0].toLowerCase(), ind++, ...row);
-                                else
-                                    addRow(false, row[0].toLowerCase(), ind++, ...row);
-                            }
+        else if ( name.replace(/(.*)_(.*)_(.*)<.*>/, "$1_$2 $3").toUpperCase())
+        id = idMap[name.replace(/(.*)_(.*)_(.*)<.*>/, "$1_$2 $3").toUpperCase()];
+        else if ( name.replace(/(.*_(.*)_(.*)<.*>/, "$1 $2_$3").toUpperCase())
+            id = idMap[name.replace(/(.*_(.*)_(.*)<.*>/, "$1 $2_$3").toUpperCase()];
+        var sing = 0;
+        if (name in single)
+            sing = single[name];
+        var rent;
+        var comb = undefined;
+        if (name in renta) {
+            rent = renta[name];
+        }
+        else{
+            rent = 0;
+        }
+        comb = rent + sing;
+        table.push([name.replace(/(.*)<.*>/, "$1").replace(/_([a-zA-z])/, ", $1").replace("_", " "),
+            name.replace(/.*<(.*)>/, "$1") + "", sing, rent, comb]);
+    } 
+    var ind = 1;
+    var sortType = document.querySelector('input[name = "sort"]:checked').value;
+    switch(sortType) {
+        case "name":
+            this.index = 0;
+            break;
+        case "lit":
+            this.index = 2;
+            break;
+        case "rented":
+            this.index = 3;
+            break;
+        case "total":
+            this.index = 4;
+            break;
+    }
+    //keepProccessed = [[]];
+    for(let row of table.sort(compareByIndex)){
+        if(row[1].includes("d219.org")){
+            addRow(true, row[0].toLowerCase().replace(",", ""), ind++, ...row);
+            //keepProccessed.push([false, row[0].toLowerCase().replace(",", ""), ind++, ...row]);
+        }
+        else{
+            addRow(false, row[0].toLowerCase().replace(",", ""), ind++, ...row);
+            //keepProccessed.push([false, row[0].toLowerCase().replace(",", ""), ind++, ...row]);
+        }
+    }
 }
 
 var keepTutorsResponse = null;
@@ -195,7 +204,7 @@ function fetchSheets() {
                 process(tutorsResponse, rentaResponse, idResponse);
             })
         })
-    });
+    }, setUnauthorized);
 }
 function refresh(){
     document.getElementById("output").innerHTML =`<tr>
@@ -253,4 +262,18 @@ function move(){
         idLoc++;
     }
 }
+
 //window.onkeydown = move;
+function setUnauthorized(){
+    document.getElementsByClassName("post-authorized")[0].innerText="You aren't authorized";
+}
+
+function exportCSV(arr){
+    var csvContent = "data:text/csv;charset=utf-8,";
+    var index=0;
+    for(let infoArray of arr){
+        dataString = infoArray.join(",");
+        csvContent += index++ < arr.length ? dataString+ "\n" : dataString;
+    }
+    window.open(csvContent);
+}

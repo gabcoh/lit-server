@@ -1,8 +1,6 @@
 body{
     background-color:#ff0000;
-    font-family:"Verdana", sans-serif;
-    width:700px;
-    margin:0 auto;
+    margin:5 5;
 }
 table{
     position:relative;
@@ -10,6 +8,9 @@ table{
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
+}
+table.out-table tr:hover td {
+    background-color:#bbbbbb;
 }
 table.out-table{
     background-color:#939393;
@@ -37,7 +38,9 @@ div.pre-auth-text{
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 div.post-auth{
-    width:500px;
+    background-color:#ff0000;
+    font-family:"Verdana", sans-serif;
+    width:700px;
     margin: 0 auto;
 }
 button.authorize {
@@ -159,7 +162,7 @@ button.authorize:hover{
     text-align-last: center;
     font-size:20px;
 }
-.include-teachers{
+.include-teachers {
     position:relative;
     display: inline-block;
     width: 340px;
@@ -180,7 +183,7 @@ button.authorize:hover{
     z-index: -1;
     opacity: 0;
 }
-label.text{
+label.text {
 }
 .include-checkbox {
     width:55px;
@@ -189,12 +192,78 @@ label.text{
     background:black;
     content:X;
     color:white;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.7s; /* Safari */
+    transition-duration: 0.7s;
 }
-.include input:hover ~ .include-checkbox{
+.include-checkbox:hover {
+    cursor:pointer;
     background:#555555;
 }
-.include input:checked ~ .include-checkbox{
+.include input:checked ~ .include-checkbox {
+    /*border-radius:30px;*/
+    transform: rotate(360deg);
+    background:red;
     border-radius:30px;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    black;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    black;
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    black;
+    opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:    black;
+}
+.floaters label {
+    width:100px;
+    height:40px;
+    position:fixed;
+    float:right;
+    left:700px;;
+    text-align:center;
+    font-family:"Verdana", sans-serif;
+}
+.back {
+    position:relative;
+    top:45px;
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+.post-authorized {
+    background:black;
+    color:white;
+}
+.export-csv {
+    background:black;
+    color:white;
+    position:relative;
+    top:85px;
+    cursor: pointer;
+}
+
+@media print {
+    body * {
+        visibility: hidden;
+        background:white;
+    }
+    body {
+        background:white;
+    }
+    .output * {
+        visibility: visible;
+    }
+    .output{
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    table.out-table{
+        box-shadow:none;
+    }
 }

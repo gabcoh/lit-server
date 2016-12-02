@@ -5,31 +5,67 @@
         <link rel="stylesheet" type="text/css" href="most-tutored.css">
     </head>
     <body>
-        <div id="authorize-div" style="display:none">
-            <span> Authorize access to Google Sheets API
-            </span>
-            <!--Button for the user to click to initiate auth sequence -->
-            <button id="authorize-button" onclick="handleAuthClick(event)">
-                Authorize
-            </button>
+        <div class="floaters">
+            <div class="floaters">
+                <label class="post-authorized"> 
+                    You are authorized
+                </label>
+                <label class="back" onclick="document.location='/'">
+                    Return to home
+                </label>
+                <!--<label class="export-csv" onclick="exportCSV(keepProccessed)">
+                    Export table
+                </label>!-->
+            </div>
         </div>
         <div id="post-auth">
-            <div id="input-div">
-                <h4>Search By</h4>
-                <input type="radio" id="by name" name="search by" checked='checked'>by name</input>
-                <input type="radio" id="by id" name="search by" value='search by id'> by id</input><br>
-                <input type="text" id="search" name ="search" value="Start typing a name" onkeyup="search()"></input>
-                <label for="search" id="search-label"></label>
+            <div class="search-control" id="input-div">
+                <div class="search-radios">
+                    <h2>Search By</h2>
+                    <label class="search radios">
+                        by name
+                        <input type="radio" id="by name" name="search by" checked='checked'/>
+                        <div class="control__indicator"></div>
+                    </label><br>
+                    <label class="search radios">
+                        by id
+                        <input type="radio" id="by id" name="search by" value='search by id'></input><br>
+                        <div class="control__indicator"></div>
+                    </label><br>
+                </div>
+                <div class="search-field">
+                    <input type="text" id="search" name ="search" placeholder="Start typing a name" onkeyup="search()"></input>
+                </div>
+                <div class="num-tut">
+                    <label id="num-tut">---------</label>
+                </div>
+                <div class="tot-tut">
+                    <label id="tot-tut">---------</label>
+                </div>
             </div>
             <div id="output-div">
                 <!--<input type="button" name="submit-search" value="Submit" onclick="search()"></input>-->
-                <table id="output">
+                <table class="output" id="output">
                     <tr>
                         <th>#</th>
                         <th>Name</th>
                         <th>Number of times Tutored</th>
                     </tr>
                 </table>
+            </div>
+        </div>
+        <div class="pre-auth" style="display:none">
+            <div class="pre-auth-text">
+                <h1>
+                    Welcome to the litcenter super snooper website!!!<br>
+                    Please sign in to an authorized account to view the info!!!<br>
+                </h1>
+            </div>
+            <!--I feel terrible using center because it's deprecated but I swear nothing else would work-->
+            <center>
+                <button class="authorize" id="authorize-button" onclick="handleAuthClick(event)">
+                    Authorize
+                </button>
             </div>
         </div>
     </body>

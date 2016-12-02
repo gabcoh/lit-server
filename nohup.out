@@ -1,0 +1,1075 @@
+Serving HTTP on 0.0.0.0 port 8000 ...
+
+Keyboard interrupt received, exiting.
+Serving HTTP on 0.0.0.0 port 8000 ...
+
+Keyboard interrupt received, exiting.
+localhost - - [09/Oct/2016 17:40:53] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:40:53] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:40:53] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+Serving HTTP on 0.0.0.0 port 8000 ...
+
+Keyboard interrupt received, exiting.
+localhost - - [09/Oct/2016 17:41:01] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:41:01] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:41:01] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:41:04] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:41:04] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:41:04] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:41:14] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:41:14] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:41:14] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+Serving HTTP on 0.0.0.0 port 8000 ...
+
+Keyboard interrupt received, exiting.
+localhost - - [09/Oct/2016 17:41:31] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:41:31] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:41:31] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:42:56] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:42:56] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:42:56] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:43:17] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:43:17] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:43:17] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:43:35] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:43:35] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:43:35] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:44:33] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:44:33] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:44:33] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:45:38] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:45:38] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:45:38] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:45:59] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:45:59] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:45:59] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:46:55] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:46:55] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:46:55] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:47:04] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:47:04] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:47:04] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:47:18] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:47:19] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:47:19] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:47:32] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:47:32] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:47:32] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:47:40] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:47:40] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:47:40] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:47:56] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:47:56] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:47:56] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:48:23] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:48:23] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:48:23] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:48:57] "GET /full-report HTTP/1.1" 301 -
+localhost - - [09/Oct/2016 17:48:57] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:48:57] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 17:48:57] "GET /full-report/full-report.css HTTP/1.1" 200 -
+Serving HTTP on 0.0.0.0 port 8000 ...
+
+Keyboard interrupt received, exiting.
+localhost - - [09/Oct/2016 18:04:28] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:04:28] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:04:28] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:05:17] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:05:17] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:05:17] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:05:25] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:05:25] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:05:25] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:05:29] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:05:29] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:05:29] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:05:40] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:05:40] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:05:40] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:06:21] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:06:21] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:06:21] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:07:47] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:07:47] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:07:47] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:08:05] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:08:05] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:08:05] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:08:09] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:08:09] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:08:09] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:08:17] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:08:17] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:08:17] "GET /full-report/full-report.css HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python3.2/runpy.py", line 160, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python3.2/runpy.py", line 73, in _run_code
+    exec(code, run_globals)
+  File "/usr/lib/python3.2/http/server.py", line 1187, in <module>
+    test(HandlerClass=SimpleHTTPRequestHandler)
+  File "/usr/lib/python3.2/http/server.py", line 1175, in test
+    httpd = ServerClass(server_address, HandlerClass)
+  File "/usr/lib/python3.2/socketserver.py", line 408, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.2/http/server.py", line 132, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.2/socketserver.py", line 419, in server_bind
+    self.socket.bind(self.server_address)
+socket.error: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/usr/lib/python3.2/runpy.py", line 160, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python3.2/runpy.py", line 73, in _run_code
+    exec(code, run_globals)
+  File "/usr/lib/python3.2/http/server.py", line 1187, in <module>
+    test(HandlerClass=SimpleHTTPRequestHandler)
+  File "/usr/lib/python3.2/http/server.py", line 1175, in test
+    httpd = ServerClass(server_address, HandlerClass)
+  File "/usr/lib/python3.2/socketserver.py", line 408, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.2/http/server.py", line 132, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.2/socketserver.py", line 419, in server_bind
+    self.socket.bind(self.server_address)
+socket.error: [Errno 98] Address already in use
+localhost - - [09/Oct/2016 18:10:42] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:10:42] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:10:42] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:11:06] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:11:06] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:11:06] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:11:26] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:11:26] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:11:26] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:12:30] "GET / HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:12:30] "GET /index.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:12:30] "GET /index.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:12:35] "GET /most-tutored HTTP/1.1" 301 -
+localhost - - [09/Oct/2016 18:12:35] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:12:35] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:12:35] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:13:49] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:13:49] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:13:49] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:16:31] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:16:31] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:16:31] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:19:11] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:19:11] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:19:11] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:24:35] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:24:46] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:24:46] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:24:46] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:25:43] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:25:43] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:25:43] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:25:52] "GET /sessions-per-period/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 18:25:52] "GET /sessions-per-period/sessions-per-period.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 19:47:25] "GET /full-report HTTP/1.1" 301 -
+localhost - - [09/Oct/2016 19:47:25] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 19:47:25] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 19:47:25] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 19:51:09] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 19:51:09] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 19:51:09] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 19:55:17] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 19:55:17] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 19:55:17] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 19:55:46] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 19:55:46] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 19:55:46] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 19:56:18] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 19:56:18] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [09/Oct/2016 19:56:18] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:22:11] "GET / HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:22:11] "GET /index.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:22:11] "GET /index.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:25:31] "GET / HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:25:31] "GET /index.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:25:31] "GET /index.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:25:33] "GET /full-report HTTP/1.1" 301 -
+localhost - - [10/Oct/2016 09:25:33] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:25:33] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:25:33] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:27:20] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:27:20] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:27:20] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:29:42] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:29:42] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:29:42] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:31:47] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:31:47] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:31:47] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:31:55] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:31:55] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:31:55] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:32:51] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:32:51] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:32:51] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:33:20] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:33:20] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:33:20] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:36:30] "GET / HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:36:30] "GET /index.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:36:30] "GET /index.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:36:31] "GET / HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:36:32] "GET /index.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:36:32] "GET /index.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:36:35] "GET /full-report HTTP/1.1" 301 -
+localhost - - [10/Oct/2016 09:36:35] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:36:35] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:36:35] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:37:40] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:37:40] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:37:40] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:38:03] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:38:03] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:38:03] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:38:23] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:38:23] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:38:23] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:38:29] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:38:29] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:38:29] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:38:43] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:38:43] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:38:43] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:39:04] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:39:04] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:39:04] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:39:19] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:39:20] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:39:20] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:39:38] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:39:38] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 09:39:38] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:19:29] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:19:30] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:19:30] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:19:42] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:19:42] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:19:42] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:19:58] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:19:58] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:19:58] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:20:04] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:20:04] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:20:04] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:20:48] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:20:48] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:20:48] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:21:16] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:21:17] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:21:17] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:21:38] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:21:38] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:21:38] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:21:47] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:21:47] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:21:47] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:22:18] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:22:18] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:22:18] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:22:26] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:22:26] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:22:26] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:22:43] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:22:43] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:22:43] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:22:55] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:22:55] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:22:55] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:23:08] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:23:08] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:23:08] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:23:37] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:23:37] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:23:37] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:23:44] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:23:44] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:23:44] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:23:59] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:23:59] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:23:59] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:24:52] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:24:52] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:24:52] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:24:56] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:24:56] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:24:56] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:25:12] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:25:12] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:25:12] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:26:15] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:26:15] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:26:15] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:26:19] "GET / HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:26:19] "GET /index.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:26:20] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:26:21] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:26:21] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:26:37] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:26:37] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:26:37] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:26:39] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:26:39] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:26:39] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:26:41] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:26:42] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:26:42] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:29:41] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:29:41] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:29:41] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:30:21] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:30:21] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:30:21] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:31:06] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:31:06] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:31:06] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:31:12] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:31:12] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:31:12] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:31:56] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:31:56] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:31:56] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:32:30] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:32:30] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:32:30] "GET /full-report/full-report.css HTTP/1.1" 200 -
+Serving HTTP on 0.0.0.0 port 8000 ...
+----------------------------------------
+Exception happened during processing of request from ('127.0.0.1', 50943)
+----------------------------------------
+
+Keyboard interrupt received, exiting.
+localhost - - [10/Oct/2016 14:32:45] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:32:45] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:32:45] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:34:12] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:34:12] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:34:18] "GET / HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:34:18] "GET /index.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:34:19] "GET /index.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:34:33] "GET /full-report HTTP/1.1" 301 -
+localhost - - [10/Oct/2016 14:34:33] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:34:33] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 14:34:33] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 17:35:54] "GET /index.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 17:35:56] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 17:35:56] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 17:35:56] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 17:36:45] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 17:36:45] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 17:36:45] "GET /full-report/full-report.css HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python3.2/socketserver.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python3.2/socketserver.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.2/socketserver.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.2/socketserver.py", line 637, in __init__
+    self.handle()
+  File "/usr/lib/python3.2/http/server.py", line 396, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.2/http/server.py", line 366, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.2/socket.py", line 276, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+localhost - - [10/Oct/2016 17:37:31] "GET / HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 17:37:31] "GET /index.js HTTP/1.1" 200 -
+localhost - - [10/Oct/2016 17:37:31] "GET /index.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 07:57:49] "GET / HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 07:57:49] "GET /index.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 07:57:50] "GET /index.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 07:58:07] "GET /full-report HTTP/1.1" 301 -
+localhost - - [11/Oct/2016 07:58:07] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 07:58:07] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 07:58:07] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:00:00] "GET / HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:00:00] "GET /index.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:00:00] "GET /index.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:00:21] "GET /sessions-per-period HTTP/1.1" 301 -
+localhost - - [11/Oct/2016 09:00:21] "GET /sessions-per-period/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:00:21] "GET /sessions-per-period/sessions-per-period.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:00:21] "GET /sessions-per-period/sessions-per-period.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:00:52] "GET /sessions-per-period/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:00:52] "GET /sessions-per-period/sessions-per-period.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:00:52] "GET /sessions-per-period/sessions-per-period.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:01:19] "GET /sessions-per-period/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:01:19] "GET /sessions-per-period/sessions-per-period.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:01:19] "GET /sessions-per-period/sessions-per-period.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:01:27] "GET /full-report HTTP/1.1" 301 -
+localhost - - [11/Oct/2016 09:01:27] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:01:27] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:01:27] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:01:32] "GET /sessions-per-period/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:01:32] "GET /sessions-per-period/sessions-per-period.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:01:32] "GET /sessions-per-period/sessions-per-period.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:01:54] "GET /sessions-per-period/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:01:55] "GET /sessions-per-period/sessions-per-period.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:01:55] "GET /sessions-per-period/sessions-per-period.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:02:04] "GET /sessions-per-period/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:02:04] "GET /sessions-per-period/sessions-per-period.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:02:04] "GET /sessions-per-period/sessions-per-period.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:02:15] "GET /sessions-per-period/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:02:15] "GET /sessions-per-period/sessions-per-period.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:02:15] "GET /sessions-per-period/sessions-per-period.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:02:26] "GET / HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:02:26] "GET /index.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:02:26] "GET /index.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:02:33] "GET /sessions-per-period HTTP/1.1" 301 -
+localhost - - [11/Oct/2016 09:02:33] "GET /sessions-per-period/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:02:33] "GET /sessions-per-period/sessions-per-period.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:02:33] "GET /sessions-per-period/sessions-per-period.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:02:39] "GET /sessions-per-period/sessions-per-period.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:03:26] "GET /sessions-per-period/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:03:26] "GET /sessions-per-period/sessions-per-period.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:03:26] "GET /sessions-per-period/sessions-per-period.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:05:03] "GET /sessions-per-period/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:05:03] "GET /sessions-per-period/sessions-per-period.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:05:03] "GET /sessions-per-period/sessions-per-period.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:05:30] "GET /most-tutored HTTP/1.1" 301 -
+localhost - - [11/Oct/2016 09:05:30] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:05:30] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:05:30] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:05:39] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:05:39] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:05:39] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:05:57] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:05:57] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:05:57] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:06:52] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:06:52] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:06:52] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:07:08] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:07:09] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:07:09] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:13:08] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:13:09] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:13:09] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:13:26] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:13:26] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:13:26] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:13:55] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:13:55] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:13:55] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:14:40] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:14:40] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:14:40] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:15:17] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:15:17] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:15:17] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:17:28] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:17:28] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:17:28] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:17:32] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:17:32] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:17:32] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:17:39] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:17:39] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:17:39] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:18:13] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:18:13] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:18:13] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:18:21] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:18:21] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:18:21] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:18:48] "GET /most-tutored/ HTTP/1.1" 200 -
+Serving HTTP on 0.0.0.0 port 8000 ...
+----------------------------------------
+Exception happened during processing of request from ('127.0.0.1', 53829)
+----------------------------------------
+
+Keyboard interrupt received, exiting.
+localhost - - [11/Oct/2016 09:18:48] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:18:48] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:18:50] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:18:50] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:18:50] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:18:54] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:18:54] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:18:54] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:19:05] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:19:05] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:19:05] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:19:21] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:19:21] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:19:21] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:19:36] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:19:36] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:19:36] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:20:05] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:20:05] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:20:05] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:21:49] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:21:49] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:21:49] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:22:13] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:22:13] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:22:13] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:23:53] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:23:53] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:23:53] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:24:22] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:24:22] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:24:22] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:24:28] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:24:29] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:24:29] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:24:54] "GET /sessions-per-period/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:24:54] "GET /sessions-per-period/sessions-per-period.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:24:54] "GET /sessions-per-period/sessions-per-period.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:25:50] "GET /sessions-per-period/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:25:50] "GET /sessions-per-period/sessions-per-period.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:25:50] "GET /sessions-per-period/sessions-per-period.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:30:30] "GET / HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:30:30] "GET /index.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:30:30] "GET /index.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:30:51] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:30:51] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:30:51] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:31:43] "GET /sessions-per-period/ HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:31:43] "GET /sessions-per-period/sessions-per-period.css HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 09:31:43] "GET /sessions-per-period/sessions-per-period.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 17:41:06] "GET / HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 17:41:06] "GET /index.js HTTP/1.1" 200 -
+localhost - - [11/Oct/2016 17:41:06] "GET /index.css HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python3.2/socketserver.py", line 284, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/lib/python3.2/socketserver.py", line 310, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.2/socketserver.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.2/socketserver.py", line 637, in __init__
+    self.handle()
+  File "/usr/lib/python3.2/http/server.py", line 396, in handle
+    self.handle_one_request()
+  File "/usr/lib/python3.2/http/server.py", line 366, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.2/socket.py", line 276, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+localhost - - [13/Oct/2016 08:58:35] "GET / HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 08:58:35] "GET /index.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 08:58:35] "GET /index.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 08:58:37] code 404, message File not found
+localhost - - [13/Oct/2016 08:58:37] "GET /favicon.ico HTTP/1.1" 404 -
+localhost - - [13/Oct/2016 08:58:49] "GET /full-report HTTP/1.1" 301 -
+localhost - - [13/Oct/2016 08:58:49] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 08:58:49] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 08:58:49] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 08:58:58] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 08:58:58] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 08:58:58] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 08:59:20] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 08:59:20] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 08:59:20] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 08:59:30] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 08:59:30] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 08:59:30] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 08:59:43] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 08:59:43] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 08:59:43] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 08:59:48] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:02:21] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:02:21] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:02:21] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:02:36] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:02:36] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:02:36] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:03:32] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:03:32] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:03:32] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:03:43] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:03:44] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:03:44] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:03:48] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:03:48] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:03:48] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:04:01] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:04:01] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:04:01] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:04:12] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:04:12] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:04:12] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:04:18] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:04:18] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:04:18] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:04:26] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:04:26] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:04:26] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:04:33] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:04:33] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:04:33] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:04:40] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:04:40] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:04:40] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:04:45] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:04:45] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:04:45] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:04:52] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:04:52] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:04:52] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:05:22] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:05:22] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:05:22] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:05:28] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:05:28] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:05:28] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:05:34] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:05:34] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:05:34] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:05:49] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:05:49] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:05:49] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:06:03] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:06:03] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:06:03] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:06:25] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:06:25] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:06:25] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:06:33] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:06:33] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:06:33] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:07:43] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:07:43] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:07:43] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:07:51] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:08:32] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:08:32] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:08:32] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:08:43] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:08:43] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:08:43] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:08:57] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:08:57] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:08:57] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:09:03] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:09:04] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:09:04] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:09:09] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:09:09] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:09:09] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:09:14] "GET /full-report/ HTTP/1.1" 200 -
+Serving HTTP on 0.0.0.0 port 8000 ...
+
+Keyboard interrupt received, exiting.
+localhost - - [13/Oct/2016 09:09:14] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:09:14] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:09:19] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:09:19] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:09:19] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:09:27] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:09:27] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:09:27] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:09:32] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:09:32] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:09:32] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:09:35] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:09:35] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:09:35] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:10:58] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:10:58] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:10:58] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:11:24] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:11:24] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:11:24] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:12:48] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:12:48] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:12:48] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:13:03] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:13:03] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:13:04] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:13:10] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:13:11] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:13:11] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:13:24] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:13:24] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:13:24] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:14:02] "GET /sessions-per-period HTTP/1.1" 301 -
+localhost - - [13/Oct/2016 09:14:02] "GET /sessions-per-period/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:14:02] "GET /sessions-per-period/sessions-per-period.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:14:02] "GET /sessions-per-period/sessions-per-period.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:15:02] "GET /sessions-per-period/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:15:03] "GET /sessions-per-period/sessions-per-period.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:15:03] "GET /sessions-per-period/sessions-per-period.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:15:12] "GET /sessions-per-period/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:15:12] "GET /sessions-per-period/sessions-per-period.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:15:12] "GET /sessions-per-period/sessions-per-period.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:15:43] "GET /sessions-per-period/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:15:43] "GET /sessions-per-period/sessions-per-period.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:15:43] "GET /sessions-per-period/sessions-per-period.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:16:00] "GET /most-tutored HTTP/1.1" 301 -
+localhost - - [13/Oct/2016 09:16:00] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:16:00] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:16:00] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:16:11] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:16:11] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:16:11] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:29:49] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:29:49] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:29:49] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:29:55] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:29:55] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:30:59] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:30:59] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:30:59] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:32:38] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:32:38] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:32:38] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:33:33] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:33:33] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:33:33] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:35:03] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:35:03] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:35:03] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:35:51] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:35:51] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:35:51] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:36:14] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:36:14] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:36:14] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:36:49] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:36:49] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:36:49] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:37:41] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:37:41] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:37:41] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:37:51] "GET / HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:37:51] "GET /index.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:37:51] "GET /index.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:37:52] "GET /full-report HTTP/1.1" 301 -
+localhost - - [13/Oct/2016 09:37:52] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:37:52] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 09:37:52] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 16:55:05] "GET / HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 16:55:05] "GET /index.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 16:55:05] "GET /index.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 16:55:17] "GET /full-report HTTP/1.1" 301 -
+localhost - - [13/Oct/2016 16:55:17] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 16:55:17] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 16:55:17] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 16:55:38] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 16:55:38] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 16:55:38] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 16:56:07] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 16:56:07] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 16:56:07] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 16:56:22] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 16:56:22] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 16:56:22] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 16:56:54] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 16:56:54] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 16:56:54] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 16:59:02] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 16:59:02] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 16:59:02] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 16:59:02] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:00:23] "GET / HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:00:23] "GET /index.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:00:23] "GET /index.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:00:35] "GET /full-report HTTP/1.1" 301 -
+localhost - - [13/Oct/2016 17:00:35] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:00:35] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:00:35] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:37:12] "GET / HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:37:12] "GET /index.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:37:12] "GET /index.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:37:15] "GET /full-report HTTP/1.1" 301 -
+localhost - - [13/Oct/2016 17:37:15] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:37:15] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:37:15] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:37:53] "GET / HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:37:53] "GET /index.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:37:53] "GET /index.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:38:49] "GET / HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:38:49] "GET /index.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:38:49] "GET /index.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:39:02] "GET /full-report HTTP/1.1" 301 -
+localhost - - [13/Oct/2016 17:39:02] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:39:02] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:39:02] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:39:16] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:39:16] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:39:16] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:53:50] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:53:51] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:53:51] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:54:01] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:54:01] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 17:54:01] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 18:12:19] "GET / HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 18:12:19] "GET /index.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 18:12:19] "GET /index.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 18:12:22] "GET /full-report HTTP/1.1" 301 -
+localhost - - [13/Oct/2016 18:12:22] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 18:12:22] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 18:12:22] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 18:12:41] "GET /sessions-per-period HTTP/1.1" 301 -
+localhost - - [13/Oct/2016 18:12:41] "GET /sessions-per-period/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 18:12:41] "GET /sessions-per-period/sessions-per-period.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 18:12:41] "GET /sessions-per-period/sessions-per-period.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 18:13:20] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 18:13:20] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 18:13:21] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 18:13:41] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 18:13:41] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 18:13:41] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [13/Oct/2016 18:19:09] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 08:59:55] "GET / HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 08:59:55] "GET /index.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 08:59:55] "GET /index.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:00:17] "GET / HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:00:17] "GET /index.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:00:17] "GET /index.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:00:48] "GET /full-report HTTP/1.1" 301 -
+localhost - - [14/Oct/2016 09:00:48] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:00:48] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:00:48] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:01:16] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:01:16] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:01:16] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:01:28] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:01:28] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:01:28] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:02:29] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:02:29] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:02:29] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:02:56] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:02:56] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:02:56] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:03:09] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:03:10] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:03:10] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:03:20] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:03:20] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:03:20] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:04:14] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:04:14] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:04:14] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:05:13] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:05:13] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:05:13] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:05:30] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:05:30] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:05:30] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:05:44] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:05:44] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:05:44] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:06:24] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:06:25] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:06:25] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:07:13] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:07:13] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:07:13] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:09:20] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:09:20] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:09:20] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:12:58] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:12:58] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:12:58] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:18:27] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:18:27] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:21:33] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:21:33] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:21:33] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:26:25] "GET / HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:26:25] "GET /index.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:26:25] "GET /index.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:26:26] "GET /full-report HTTP/1.1" 301 -
+localhost - - [14/Oct/2016 09:26:26] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:26:26] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:26:26] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:27:44] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:27:44] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:31:24] "GET / HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:31:24] "GET /index.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:31:24] "GET /index.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:32:03] "GET / HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:32:03] "GET /index.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:32:03] "GET /index.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:32:17] "GET /full-report HTTP/1.1" 301 -
+localhost - - [14/Oct/2016 09:32:17] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:32:17] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:32:18] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:33:16] "GET /most-tutored HTTP/1.1" 301 -
+localhost - - [14/Oct/2016 09:33:16] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:33:16] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:33:16] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:33:30] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:33:31] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:33:31] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:33:32] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:33:32] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:33:32] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:33:34] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:33:34] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:33:34] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:34:07] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:34:07] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:34:07] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:34:08] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:34:08] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:34:08] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:34:08] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:34:08] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 09:34:08] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 13:58:51] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 13:58:51] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 13:58:51] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 13:59:38] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 13:59:38] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [14/Oct/2016 13:59:38] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:01:47] "GET / HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:01:47] "GET /index.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:01:47] "GET /index.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:02:02] "GET /full-report HTTP/1.1" 301 -
+localhost - - [18/Oct/2016 09:02:02] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:02:02] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:02:02] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:02:58] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:02:58] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:02:58] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:02:59] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:02:59] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:02:59] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:03:21] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:03:21] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:03:21] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:03:47] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:03:47] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:03:47] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:04:08] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:04:08] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:04:08] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:04:27] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:04:27] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:04:27] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:04:40] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:04:40] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:04:40] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:05:14] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:05:14] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:05:14] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:05:40] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:05:40] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:05:40] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:05:58] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:05:58] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:05:58] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:06:16] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:06:16] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:06:16] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:06:29] "GET / HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:06:29] "GET /index.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:06:29] "GET /index.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:06:36] "GET /full-report HTTP/1.1" 301 -
+localhost - - [18/Oct/2016 09:06:36] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:06:36] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:06:36] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:06:48] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:06:49] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:06:49] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:07:21] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:07:21] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:07:21] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:07:45] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:07:45] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:07:45] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:07:56] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:07:56] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:07:56] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:09:18] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:09:18] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:09:18] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:09:26] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:09:26] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:10:30] "GET /most-tutored HTTP/1.1" 301 -
+localhost - - [18/Oct/2016 09:10:30] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:10:30] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:10:30] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:11:10] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:11:10] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:11:10] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:12:08] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:12:08] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:12:08] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:13:03] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:13:03] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:13:03] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:13:44] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:13:44] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:13:44] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:14:57] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:14:57] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:14:57] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:15:31] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:15:31] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:15:31] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:15:57] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:15:57] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:15:57] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:16:20] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:16:20] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:17:27] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:17:27] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:17:27] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:18:01] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:18:01] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:18:01] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:18:20] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:18:20] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:18:20] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:18:44] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 09:18:44] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/lib/python3.2/runpy.py", line 160, in _run_module_as_main
+    "__main__", fname, loader, pkg_name)
+  File "/usr/lib/python3.2/runpy.py", line 73, in _run_code
+    exec(code, run_globals)
+  File "/usr/lib/python3.2/http/server.py", line 1187, in <module>
+    test(HandlerClass=SimpleHTTPRequestHandler)
+  File "/usr/lib/python3.2/http/server.py", line 1175, in test
+    httpd = ServerClass(server_address, HandlerClass)
+  File "/usr/lib/python3.2/socketserver.py", line 408, in __init__
+    self.server_bind()
+  File "/usr/lib/python3.2/http/server.py", line 132, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/lib/python3.2/socketserver.py", line 419, in server_bind
+    self.socket.bind(self.server_address)
+socket.error: [Errno 98] Address already in use
+Serving HTTP on 0.0.0.0 port 8000 ...
+
+Keyboard interrupt received, exiting.
+localhost - - [18/Oct/2016 13:58:56] "GET / HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 13:58:56] "GET /index.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 13:58:56] "GET /index.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 13:59:05] "GET /sessions-per-period HTTP/1.1" 301 -
+localhost - - [18/Oct/2016 13:59:05] "GET /sessions-per-period/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 13:59:05] "GET /sessions-per-period/sessions-per-period.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 13:59:05] "GET /sessions-per-period/sessions-per-period.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 13:59:12] "GET /most-tutored HTTP/1.1" 301 -
+localhost - - [18/Oct/2016 13:59:12] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 13:59:12] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 13:59:12] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 14:00:04] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 14:00:04] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 14:00:04] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 14:00:36] "GET /most-tutored/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 14:00:36] "GET /most-tutored/most-tutored.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 14:00:36] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 14:00:51] "GET /full-report HTTP/1.1" 301 -
+localhost - - [18/Oct/2016 14:00:51] "GET /full-report/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 14:00:51] "GET /full-report/full-report.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 14:00:51] "GET /full-report/full-report.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 14:01:44] "GET /sessions-per-period/ HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 14:01:44] "GET /sessions-per-period/sessions-per-period.css HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 14:01:44] "GET /sessions-per-period/sessions-per-period.js HTTP/1.1" 200 -
+localhost - - [18/Oct/2016 14:03:06] "GET /most-tutored/most-tutored.css HTTP/1.1" 200 -
+Serving HTTP on 0.0.0.0 port 8000 ...
+
+Keyboard interrupt received, exiting.

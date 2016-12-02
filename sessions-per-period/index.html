@@ -5,19 +5,36 @@
         <link rel="stylesheet" type="text/css" href="sessions-per-period.css">
     </head>
     <body>
-        <div id="authorize-div" style="display:none">
-            <span> Authorize access to Google Sheets API
-            </span>
-            <!--Button for the user to click to initiate auth sequence -->
-            <button id="authorize-button" onclick="handleAuthClick(event)">
-                Authorize
-            </button>
+        <div class="floaters">
+            <label class="post-authorized"> 
+                You are authorized
+            </label>
+            <label class="back" onclick="document.location='/'">
+                Return to home
+            </label>
+            <!--<label class="export-csv" onclick="exportCSV(keepProccessed)">
+                Export table
+            </label>--!>
         </div>
-        <table id="output">
+        <table class="out-table" id="output">
             <tr>
                 <th>Time Period</th>
-                <th>Average Amount of Tutor Sessions Per Period</th>
+                <th>Average Amount of Tutor Sessions Per Day</th>
             </tr>
         </table>
+        <div class="pre-auth" style="display:none">
+            <div class="pre-auth-text">
+                <h1>
+                    Welcome to the litcenter super snooper website!!!<br>
+                    Please sign in to an authorized account to view the info!!!<br>
+                </h1>
+            </div>
+            <!--I feel terrible using center because it's deprecated but I swear nothing else would work-->
+            <center>
+                <button class="authorize" id="authorize-button" onclick="handleAuthClick(event)">
+                    Authorize
+                </button>
+            </center>
+        </div>
     </body>
 </html>

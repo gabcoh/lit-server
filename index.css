@@ -11,7 +11,7 @@ div.pre-auth-text{
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 }
 div.post-auth{
-    width:500px;
+    width:550px;
     margin: 0 auto;
 }
 button.authorize {
@@ -84,4 +84,7 @@ button.full-report-button{
 button.full-report-button:hover{
     background-color:white;
     color:black;
+}
+button:hover{
+    cursor:pointer;
 }

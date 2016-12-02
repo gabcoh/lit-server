@@ -1,4 +1,70 @@
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
+body{
+        background-color:#ff0000;
+}
+th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        background-color:#939393;
+        box-shadow: 20px 20px #ae8a80;
+}
+table{
+        margin-top:10px;
+        border-collapse: collapse;
+}
+div.pre-auth{
+        text-align:center;
+        margin: 0 auto; 
+}
+div.pre-auth-text{
+        font-family:"Verdana", sans-serif;
+        color:#ffffff;
+        text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+div.post-auth{
+        width:550px;
+        margin: 0 auto;
+        font-family:"Verdana", sans-serif;
+        width:700px;
+        margin:20px auto;
+}
+button.authorize {
+        background-color: white; /* Green */
+        border: none;
+        justify-content: center;
+        width:200px;
+        height:50px;
+        font-size:20px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+} 
+button.authorize:hover{
+        background-color:#999999;
+        color:white;
+}
+.floaters label {
+        width:100px;
+        height:40px;
+        position:fixed;
+        float:right;
+        left:700px;;
+        text-align:center;
+        font-family:"Verdana", sans-serif;
+}
+.back {
+        position:relative;
+        top:45px;
+        background: white;
+        color: black;
+        cursor: pointer;
+}
+.post-authorized {
+        background:black;
+        color:white;
+}
+.export-csv {
+        background:black;
+        color:white;
+        position:relative;
+        top:85px;
+        cursor: pointer;
 }

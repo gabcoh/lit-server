@@ -22,16 +22,15 @@ function checkAuth() {
  * @param {Object} authResult Authorization result.
  */
 function handleAuthResult(authResult) {
-    var authorizeDiv = document.getElementById('authorize-div');
     if (authResult && !authResult.error) {
         // Hide auth UI, then load client library.
-        authorizeDiv.style.display = 'none';
         document.getElementById("post-auth").style.visibility = "visible";
+        document.getElementsByClassName('pre-auth')[0].style.display="none";
         loadSheetsApi();
     } else {
         // Show auth UI, allowing the user to initiate authorization by
         // clicking authorize button.
-        authorizeDiv.style.display = 'inline';
+        document.getElementsByClassName('pre-auth')[0].style.display="initial";
         document.getElementById("post-auth").style.visibility = "hidden";
     }
 }
@@ -61,6 +60,7 @@ function loadSheetsApi() {
     gapi.client.load(discoveryUrl).then(fetchSheets);
 }
 
+//var keepProccessed = [];
 function process(tutorsResponse, idsResponse){
     var id = idsResponse.result;
     var tutorSessions = tutorsResponse.result;
@@ -85,10 +85,23 @@ function process(tutorsResponse, idsResponse){
         }
     }
     var keys = Object.keys(visitsMap);
+    var total = 0;
     keys.sort(function(a, b){ return visitsMap[b]-visitsMap[a]});
+    //keepProccessed = [[]];
     for(let key of keys){
-        addRow(key, idMap[key], visitsMap[key]);
+        if(key in idMap) {
+            addRow(key, idMap[key].replace(" ", ", "), visitsMap[key]);
+            total += visitsMap[key];
+            //keepProccessed.push([key, idMap[key].replace(" ", ", "), visitsMap[key]]);
+        }
+        else{
+            addRow(key, "Unknown", visitsMap[key]);
+            total += visitsMap[key];
+            //keepProccessed.push([key, "Unknown", visitsMap[key]]);
+        }
     }
+    document.getElementById("num-tut").innerText = keys.length + " kids tutored";
+    document.getElementById("tot-tut").innerText = total + " sessions";
 }
 
 /**
@@ -108,8 +121,7 @@ function fetchSheets() {
         }, function(response) {
             console.log("error");
         });
-
-    });
+    }, setUnauthorized);
 }
 function addRow() {
     var table = document.getElementById("output");
@@ -141,9 +153,16 @@ function search(){
             row.style = "display:none"
         }
     }
-    if(query =="") 
-        document.getElementById("search-label").innerText = ""; 
-    else 
-        document.getElementById("search-label").innerText = "Found: " + matchedIds.length + " student" + 
-            (matchedIds.length == 1 ? "" : "s");
+}
+function setUnauthorized(){
+    document.getElementsByClassName("post-authorized")[0].innerText="You aren't authorized"; 
+}
+function exportCSV(arr){
+    var csvContent = "data:text/csv;charset=utf-8,";
+    var index=0;
+    for(let infoArray of arr){
+        dataString = infoArray.join(",");
+        csvContent += index++ < arr.length ? dataString+ "\n" : dataString;
+    } 
+    window.open(csvContent);
 }

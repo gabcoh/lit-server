@@ -22,15 +22,16 @@ function checkAuth() {
  * @param {Object} authResult Authorization result.
  */
 function handleAuthResult(authResult) {
-    var authorizeDiv = document.getElementById('authorize-div');
     if (authResult && !authResult.error) {
         // Hide auth UI, then load client library.
-        authorizeDiv.style.display = 'none';
         loadSheetsApi();
+        document.getElementsByClassName("out-table")[0].style.display="initial";
+        document.getElementsByClassName("pre-auth")[0].style.display="none";
     } else {
         // Show auth UI, allowing the user to initiate authorization by
         // clicking authorize button.
-        authorizeDiv.style.display = 'inline';
+        document.getElementsByClassName("out-table")[0].style.display="none";
+        document.getElementsByClassName("pre-auth")[0].style.display="initial";
     }
 }
 
@@ -62,15 +63,17 @@ function loadSheetsApi() {
 /*
  * find out who has tutored the most
  */
+var keepProccessed = [];
 function process(tutorsResponse){
     var EarlyBird = 0;
     var AfterSchool = 10;
     var tutorSessions = tutorsResponse.result;
     var totalVisits = [0,0,0,0,0,0,0,0,0,0];
     var cycle = -1;
-    var lastPeriod = -1;
+    var lastDay = "";
     for(var i = 0; i < tutorSessions.values.length; i++){
         var period = tutorSessions.values[i][2]; 
+        var day = tutorSessions.values[i][0].split(" ")[0]; 
         if(period == "Early Bird"){ 
             period = 0; 
         } else if (period == "After school"){
@@ -79,15 +82,23 @@ function process(tutorsResponse){
             period = parseInt(period);
         } 
         totalVisits[period]++;
-        if (period < lastPeriod){
+        if (day != lastDay){
             cycle++;
+            lastDay = day;
         }
-        lastPeriod = period;
     }
+    var total = 0;
+    keepProccessed = [[]];
     output("Early Bird " , (totalVisits[0]/cycle).toFixed(2));
-    for(var i = 1; i<totalVisits.length - 1; i++)
-        output("Period" + i , (totalVisits[i]/cycle).toFixed(2));
+    //keepProccessed.push(["Early Bird " , (totalVisits[0]/cycle).toFixed(2)]);
+    for(var i = 1; i<totalVisits.length - 1; i++){
+        total =total + totalVisits[i]/cycle;
+        output("Period " + i , (totalVisits[i]/cycle).toFixed(2));
+        //keepProccessed.push(["Period " + i , (totalVisits[i]/cycle).toFixed(2)]);
+    }
     output("After School ", (totalVisits[9]/cycle).toFixed(2));
+    //keepProccessed.push(["After School ", (totalVisits[9]/cycle).toFixed(2)]);
+    output("Average daily total", total.toFixed(2));
 }
 
 /**
@@ -99,9 +110,7 @@ function fetchSheets() {
     range: 'Form Responses 1',
     }).then(function(tutorsResponse){
         process(tutorsResponse);
-    }, function(response) {
-        console.log("error");
-    });
+    }, setUnauthorized);
 }
 /**
  * Append a message to the output element 
@@ -113,4 +122,16 @@ function output(timePeriod, amount) {
     var row = table.insertRow();
     row.insertCell().innerText = timePeriod;
     row.insertCell().innerText = amount;
+}
+function setUnauthorized(){
+    document.getElementsByClassName("post-authorized")[0].innerText="You aren't authorized"; 
+}
+function exportCSV(arr){
+    var csvContent = "data:text/csv;charset=utf-8,";
+    var index=0;
+    for(let infoArray of arr){
+        dataString = infoArray.join(",");
+        csvContent += index++ < arr.length ? dataString+ "\n" : dataString;
+    } 
+    window.open(csvContent);
 }

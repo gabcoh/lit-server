@@ -5,7 +5,18 @@
         <link rel="stylesheet" type="text/css" href="full-report.css">
     </head>
     <body>
-       <div id="post-auth">
+        <div id="post-auth">
+            <div class="floaters">
+                <label class="post-authorized"> 
+                    You are authorized
+                </label>
+                <label class="back" onclick="document.location='/'">
+                    Return to home
+                </label>
+                <!--<label class="export-csv" onclick="exportCSV(keepProccessed)">
+                    Export table
+                </label>--!>
+            </div>
             <div class="input" id="input-div">
                 <div class="sort-control">
                     <h2>Sort by</h2>
@@ -28,7 +39,7 @@
                     </label>
                 </div>
                 <div class="search-buttons">
-                    <input type="text" name ="search" value="Start typing a name" onkeyup="search()"></input>
+                    <input type="text" name ="search" placeholder="Search by name" onkeyup="search()"></input>
                 </div>
                 <div class="include-teachers">
                     <label class="include text"> 
