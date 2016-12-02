@@ -66,12 +66,13 @@ function loadSheetsApi() {
 }
 
 var index = 2;
+var sign = 1;
 function compareByIndex(arr1, arr2){
     if(arr1[index] > arr2[index])
-        return -1;
+        return 1*sign;
     else if(arr1[index] == arr2[index])
         return 0;
-    return 1;
+    return -1*sign;
 }
 
 //var keepProccessed = [];
@@ -154,15 +155,19 @@ function process(tutorsResponse, rentaResponse, idsResponse){
     switch(sortType) {
         case "name":
             this.index = 0;
+            this.sign = 1;
             break;
         case "lit":
             this.index = 2;
+            this.sign = -1;
             break;
         case "rented":
             this.index = 3;
+            this.sign = -1;
             break;
         case "total":
             this.index = 4;
+            this.sign = -1;
             break;
     }
     //keepProccessed = [[]];
