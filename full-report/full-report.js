@@ -68,10 +68,10 @@ function loadSheetsApi() {
 var index = 2;
 function compareByIndex(arr1, arr2){
     if(arr1[index] > arr2[index])
-        return -1;
+        return 1;
     else if(arr1[index] == arr2[index])
         return 0;
-    return 1;
+    return -1;
 }
 
 //var keepProccessed = [];
