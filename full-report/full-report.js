@@ -107,7 +107,7 @@ function process(tutorsResponse, rentaResponse, idsResponse){
         if(i< rentValues.length){
             var rentaTutors = rentValues[i][1].split(",").map(function(str) { return str.trim()});
             for (var x = 0; x<rentaTutors.length; x++){
-                var abc = rentaTutors[x];
+                var abc = rentaTutors[x].replace(/ /g,'');
                 if(abc in renta)
                     renta[abc]++;
                 else
