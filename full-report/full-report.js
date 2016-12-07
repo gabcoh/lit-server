@@ -76,10 +76,11 @@ function compareByIndex(arr1, arr2){
 }
 
 //var keepProccessed = [];
-function process(tutorsResponse, rentaResponse, idsResponse){
+function process(tutorsResponse, rentaResponse, idsResponse, namesResponse){
     var id = idsResponse.result;
     var tutorSessions = tutorsResponse.result;
     var rentaSessions = rentaResponse.result;
+    var namesRe = namesResponse.result;
     var idMap = {};
     /*
        Tutors
@@ -96,6 +97,10 @@ function process(tutorsResponse, rentaResponse, idsResponse){
     var tutValues = tutorSessions.values;
     var rentValues = rentaSessions.values;
     var names = new Set(); 
+    console.log(names);
+    for(var i = 0; i<namesRe.length; i++){
+        names.add(namesRe[i][3]);
+    }
     for (var i = 1; i<Math.max(tutValues.length, rentValues.length); i++){
         if(i< tutValues.length){
             if(tutValues[i][6] in single)
@@ -186,6 +191,7 @@ function process(tutorsResponse, rentaResponse, idsResponse){
 var keepTutorsResponse = null;
 var keepIdsResponse = null;
 var keepRentaResponse = null;
+var keepNames = null;
 /**
  * Print the names and majors of students in a sample spreadsheet:
  * https://docs.google.com/spreadsheets/d/1L3_WojemoFeh9qTPOtIl2_leXpKAQ308jX7lgED96X0/edit
@@ -206,7 +212,13 @@ function fetchSheets() {
                 range: 'studentIdNums'
             }).then(function(idResponse){
                 window.keepIdsResponse = idResponse;
-                process(tutorsResponse, rentaResponse, idResponse);
+                gapi.client.sheets.spreadsheets.values.get({
+                spreadsheetId: '1L3_WojemoFeh9qTPOtIl2_leXpKAQ308jX7lgED96X0',
+                range: 'studentIdNums'
+                }).then(function(namesResponse){
+                    this.keepNames = namesResponse;
+                    process(tutorsResponse, rentaResponse, idResponse, namesResponse);
+                })
             })
         })
     }, setUnauthorized);
@@ -221,7 +233,7 @@ function refresh(){
         <th>Total</th>
         </tr>`;
 
-    process(window.keepTutorsResponse, window.keepRentaResponse, window.keepIdsResponse);
+    process(window.keepTutorsResponse, window.keepRentaResponse, window.keepIdsResponse, window.keepNames);
 }
 /**
  * Append a pre element to the body containing the given message
