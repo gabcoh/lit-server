@@ -1,5 +1,0 @@
-have a little box floating in top left saying whether or not you are authorized
-organize css files a bit 
-    ie comment everything up
-       delimit each different section
-       move things around so it makes sense
