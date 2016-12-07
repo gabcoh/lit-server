@@ -239,13 +239,6 @@ label.text {
     background:black;
     color:white;
 }
-.export-csv {
-    background:black;
-    color:white;
-    position:relative;
-    top:85px;
-    cursor: pointer;
-}
 
 @media print {
     body * {
