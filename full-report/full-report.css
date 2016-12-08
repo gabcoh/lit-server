@@ -183,8 +183,6 @@ button.authorize:hover{
     z-index: -1;
     opacity: 0;
 }
-label.text {
-}
 .include-checkbox {
     width:55px;
     height:55px;
