@@ -110,7 +110,7 @@ function process(tutorsResponse, rentaResponse, idsResponse, namesResponse){
             if (! names.has(tutValues[i][6]))
                 names.add(tutValues[i][6]); 
         }
-        if(i< rentValues.length){
+        /*if(i< rentValues.length){
             var rentaTutors = rentValues[i][1].split(",").map(function(str) { return str.trim()});
             for (var x = 0; x<rentaTutors.length; x++){
                 var abc = rentaTutors[x].replace(/ /g,'');
@@ -121,7 +121,7 @@ function process(tutorsResponse, rentaResponse, idsResponse, namesResponse){
                 if (! names.has(abc))
                     names.add(abc); 
             }
-        }
+        }*/
     }
     var table = [];
     //when printing loop over keys in renta and single 
