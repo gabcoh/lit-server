@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { 
     Table, ControlLabel, FormGroup, HelpBlock, FormControl, Grid, Row, Col, Radio,
-    Alert, Button
+    Alert, Button, Collapse, Checkbox
 } from 'react-bootstrap';
 
 function FieldGroup({ id, label, help, ...props }) {
@@ -21,6 +21,7 @@ export default class TutorsBreakdown extends Component {
             forbidden : false,
             sort : this.sortByTotal,
             substring : '',
+            showTeachers : false,
         }
         //Fetch lit center tutor form
         this.getSheet({
@@ -79,11 +80,13 @@ export default class TutorsBreakdown extends Component {
                     conf : 0,
                     rented : 0,
                     timeStamps : [],
+                    teacher : false,
                 };
             }
             result[name].conf= result[name].conf+ 1;
             result[name].timeStamps.push(this.parseTimeString(row[0]));
             result[name].prettyName = this.prettyNameFromEmail(row[6]);
+            result[name].teacher = /<.*@d219\.org>/.test(row[6]);
         }
         //FIND OUT WHAT FORMAT RENTA TUTOR NAMES ARE IN
         //IE IS THERE A COMMA BETWEEN NAMES OR A SPACE OR BOTH
@@ -146,13 +149,17 @@ export default class TutorsBreakdown extends Component {
             let tableRows = [];
             let names = this.state.sort(processedData).filter((a)=>a.toLowerCase().indexOf(this.state.substring)>-1);
             for (let name of names){
-                let row = (<tr key={name}>
+                let row = (
+                    <tr key={name}>
                     <td> {processedData[name].prettyName} </td>
                     <td> {processedData[name].conf} </td>
                     <td> {processedData[name].rented} </td>
                     <td> {processedData[name].conf+processedData[name].rented} </td>
                     </tr>
                 );
+                if (processedData[name].teacher) {
+                    row = (<Collapse in={this.state.showTeachers}>{row}</Collapse>);
+                }
                 tableRows.push(row);
             }
             content = (
@@ -195,6 +202,9 @@ export default class TutorsBreakdown extends Component {
                     Name
                   </Radio>
                 </FormGroup>
+                <Checkbox onChange={()=>this.setState({showTeachers : !this.state.showTeachers})}>
+                    Show Teachers
+                </Checkbox>
             </form>
             </Col>
             <Col xs={8} sm={8} md={8} lg={8} >
