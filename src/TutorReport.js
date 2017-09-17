@@ -44,9 +44,10 @@ export default class TutorsBreakdown extends Component {
         }.bind(this), function(response) {
             if (response.result.error.code === 403) {
                 this.setState({forbidden : true });
+            } else {
+                console.error("failed to fetch literacy conference spreadsheet");
+                console.error(response);
             }
-            console.error("failed to fetch literacy conference spreadsheet");
-            console.error(response);
         }.bind(this));
     }
     parseTimeString(string) {
