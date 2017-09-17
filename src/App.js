@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import TutorReport from './TutorReport';
-import './App.css';
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
 class App extends Component {
     // Client ID and API key from the Developer Console
@@ -15,7 +15,7 @@ class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            authorized : false,
+            signedIn: false,
             gapiReady : false,
         }
         this.loadGAPI();
@@ -56,9 +56,9 @@ class App extends Component {
     updateSigninStatus(isSignedIn) {
         if (isSignedIn) {
             //this.checkClientAccess();
-            this.setState({authorized:true});
+            this.setState({signedIn:true});
         } else {
-            this.setState({authorized:false});
+            this.setState({signedIn:false});
         }
     }
     handleAuthClick() {
@@ -68,23 +68,44 @@ class App extends Component {
         window.gapi.auth2.getAuthInstance().signOut();
     }
     render() {
+        let content = null;
+        let navbarButton = null;
         if(!this.state.gapiReady) {
-            return (
-                <p>loading</p>
+            content = (
+                <p className="text-center">loading</p>
             );
-        }
-        if (this.state.authorized) {
-            return(
+        } else if (this.state.signedIn) {
+            content = (
                 <div>
                 <TutorReport gapi={window.gapi} />
-                <button onClick={this.handleSignoutClick}>Sign Out </button>
                 </div>
             );
+            navbarButton = (
+                <NavItem eventKey={2} onClick={this.handleSignoutClick}>Sign Out</NavItem>
+            );
         } else {
-            return (
-                <button onClick={this.handleAuthClick}>Sign in </button>
+            content = (
+                <p className="text-center">Please Sign In to View Content</p>
+            );
+            navbarButton = (
+                <NavItem eventKey={2} onClick={this.handleAuthClick}>Sign In</NavItem>
             );
         }
+        return ( 
+            <div>
+			<Navbar collapseOnSelect> <Navbar.Header> <Navbar.Brand> Lit Center </Navbar.Brand> <Navbar.Toggle />
+            </Navbar.Header>
+            <Navbar.Collapse>
+            <Nav pullRight>
+            {navbarButton}
+            </Nav>
+            </Navbar.Collapse>
+            </Navbar>
+            <div className="container containerFluid">
+            {content}
+            </div>
+            </div>
+        );
     }
 }
 
