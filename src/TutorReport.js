@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { 
-    Table, ControlLabel, FormGroup, HelpBlock, FormControl, Grid, Row, Col, Radio
+    Table, ControlLabel, FormGroup, HelpBlock, FormControl, Grid, Row, Col, Radio,
+    Alert, Button
 } from 'react-bootstrap';
 
 function FieldGroup({ id, label, help, ...props }) {
@@ -122,7 +123,14 @@ export default class TutorsBreakdown extends Component {
         let content = null;
         if ( this.state.forbidden ) {
             content = (
-                <p className="text-center">This Account is Not Authorized to Access Necessary Sheets</p>
+                <Alert bsStyle="danger">
+                <h4>Your account does not have access to the necessary spreadsheets!</h4>
+                <p>Sign in to a google account with access to the necessary spreadsheets
+                to view this site</p>
+                <p>
+                <Button bsStyle="danger" onClick={this.props.signOut}>Sign out</Button>
+                </p>
+                </Alert>
             );
         }
         else if ((this.state.rentaSheet == null) || 

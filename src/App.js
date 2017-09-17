@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import TutorReport from './TutorReport';
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import { Navbar, Nav, NavItem, Alert, Button} from 'react-bootstrap';
 
 class App extends Component {
     // Client ID and API key from the Developer Console
@@ -77,7 +77,8 @@ class App extends Component {
         } else if (this.state.signedIn) {
             content = (
                 <div>
-                <TutorReport gapi={window.gapi} />
+                <TutorReport signOut={this.handleSignoutClick.bind(this)}
+                gapi={window.gapi} />
                 </div>
             );
             navbarButton = (
@@ -85,7 +86,14 @@ class App extends Component {
             );
         } else {
             content = (
-                <p className="text-center">Please Sign In to View Content</p>
+                <Alert bsStyle="danger">
+                <h4>You must be logged in to view content!</h4>
+                <p>Sign in to a google account with access to the necessary spreadsheets
+                to view this site</p>
+                <p>
+                <Button bsStyle="danger" onClick={this.handleAuthClick}>Sign in</Button>
+                </p>
+                </Alert>
             );
             navbarButton = (
                 <NavItem eventKey={2} onClick={this.handleAuthClick}>Sign In</NavItem>
